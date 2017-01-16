@@ -1,0 +1,157 @@
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Sahil}{Jain} %optional                               % optional, remove / comment the line if not wanted title{Resumé title} 
+\address{Room 229, Hall 2, NIT Durgapur, MG Avenue}{713209 Durgapur West Bengal}{India}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+91~98833~27091}                   % optional, remove / comment the line if not wanted /phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{jainsahil1997@hotmail.com}
+% optional, remove / comment the line if not wanted homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+
+% photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Education}
+\cventry{2015--2019}{B.Tech(IT)}{NIT Durgapur }{Durgapur}{\textit{7.76 CGPA}}{Department of Computer Science and Engineering}  % arguments 3 to 6 can be left empty
+\cventry{2015}{Intermediate}{Birla High School}{Kolkata}{\textit{94.2}}{CBSE}
+
+\cventry{2013}{Matriculation}{Birla High School}{Kolkata}{\textit{10 CGPA}}{CBSE}
+
+%\section{Master thesis}
+%\cvitem{title}{\emph{Title}}
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+
+\section{Internship/Work Experience}
+%\subsection{Vocational}
+\cventry{2016}{Summer Intern}{Edudigm Education PVT Ltd}{Kolkata}{}{Guide:Rajiv Agarwal, CEO EESL.\newline{}%
+Objective :To enhance the performance of students using STEM based approach%
+\begin{itemize}%
+\item Developed interactive study materials for students preparing for JEE Main and Advanced  
+\item Helped in developing the backend of www.xam360.com
+  %\begin{itemize}%
+  %\item Sub-achievement (a);
+  %\item Sub-achievement (b), with sub-sub-achievements (don't do this!);
+   % \begin{itemize}
+%    \item Sub-sub-achievement i;
+ %   \item Sub-sub-achievement ii;
+ %   \item Sub-sub-achievement iii;
+%  \end{itemize}
+ % \item Sub-achievement (c);
+ % \end{itemize}
+\item Tools used: PHP , Microsoft Powerpoint and Prezi
+\end{itemize}}
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description line %1\newline{}Description line 2}
+%\subsection{Miscellaneous}
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+
+\section{Academic Projects}
+%\subsection{Vocational}
+\cventry{Ongoing}{Guide:Prof N.K Roy}{Arduino Uno based Soil Monitoring System}{Durgapur}\newline{}%
+Objective :To develop soil monitoring system using Arduino Uno%
+\begin{itemize}%
+\item Develop an automated system which monitors soil parameters like moisture,pH, temperature.
+\item  Develop an android app to control the system and extract data from the system.
+\item The device would be using GPRS/GSM Module to send and receive data.
+  %\begin{itemize}%
+  %\item Sub-achievement (a);
+  %\item Sub-achievement (b), with sub-sub-achievements (don't do this!);
+   % \begin{itemize}
+%    \item Sub-sub-achievement i;
+ %   \item Sub-sub-achievement ii;
+ %   \item Sub-sub-achievement iii;
+%  \end{itemize}
+ % \item Sub-achievement (c);
+ % \end{itemize}
+\end{itemize}
+
+\section{Technical Skills}
+\begin{itemize}
+\item  \textbf{Languages}:C, C++, C\#, R
+\end{itemize}
+\begin{itemize}
+\item  \textbf{Database:} NoSQL
+\end{itemize}
+\begin{itemize}
+\item  \textbf{Script:} Python , PHP, Shell Script
+\end{itemize}
+\begin{itemize}
+\item  \textbf{Tools:} Django, Drupal ,  Sublime Text, Vim, Powershell, \LaTeX, Rstudio, Intel XDK, MongoDB, Microsoft Office
+\end{itemize}
+\begin{itemize}
+\item  \textbf{OS:} Windows, Linux Mint
+ 
+\end{itemize}
+
+
+\section{Roles and Responsibilities}
+\begin{itemize}
+\item Hall Secretary, Hall 2, NIT Durgapur (August 2016- present)
+\item Mess Secretary, Hall 2 (August 2016)
+\item Junior Coordinator,\textbf{ Entrepreneurship Development Cell}, NIT Durgapur (August 2016- present)
+
+\item Mess Secretary, Hall 11 , NIT Durgapur  (August 2015- May 2016)
+\end{itemize}
+
+\section{Extra Co-Curricular Activities}
+\begin{itemize}
+\item \noindent Finalist in B-Plan Event,Arohan, NIT Durgapur·\item \noindent Finalist in Woodstock Event, Kshitij, IIT Kharagpur·\item \noindent Finalist in Stockhastic Event,  Arohan, NIT Durgapur·\item \noindent Runners up at State Level Table Tennis Championship, Held at Khudiram Anushilan Kendra, Kolkata
+\end{itemize}
+
+\section{Interests}
+\begin{itemize}
+\item \noindent Networking , Web development , Application development,Financial innovation Macro and Micro Economics, Investments, Corporate Finance.
+\end{itemize}
+
+\section{Strengths}
+\begin{itemize}
+\item \noindent Positive Attitude,Eager to learn, Social Interaction, Hardworking.
+\end{itemize}
+
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}     
